@@ -1,0 +1,7 @@
+{
+  "name": "command-line-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ValimGustavo <gustavo.souza.valim@gmail.com>",
+  "license": "MIT"
+}
