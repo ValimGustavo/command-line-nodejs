@@ -1,0 +1,12 @@
+﻿Por convençao os programas ficam dentro da pasta bin. Onde eh colocado o caminho para o programa
+detro da propriedade bin no package.json
+
+Eh preciso adicionar "#! /usr/bin/env node" para indicar onde fica o compilador
+Ele ira criar o .bash do arquivo
+
+
+Apos adicionar o caminho na proprieda bin, eh necessario rodar o comando "npm (yarn) link" para que o programa
+seja associado ao projeto.
+
+Caso tenha adicionado o programa sem ter colocado o cabeçalho
+podera desfazer a açao com o comando "npm (yarn) unlink"
